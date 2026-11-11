@@ -1,0 +1,37 @@
+﻿id;category;user_query;assistant_response;test_date;response_time_seconds;accuracy_score;relevance_score;language_score;tone_score;complexity_score;notes
+P01;shipping;¿cuánto tarda un pedido en llegar?;"Los plazos de entrega estimados desde la fecha de compra son los siguientes:
+Envío estándar a una tienda Mango:
+- Península y Baleares: 1 a 6 días laborables.
+- Canarias: 4 a 8 días laborables.
+Envío estándar a un punto de recogida:
+- Península y Baleares: 1 a 4 días laborables.
+- Canarias: 4 a 8 días laborables.
+Envío estándar a domicilio:
+- Península y Baleares: 1 a 4 días laborables.
+- Canarias: 4 a 8 días laborables.
+- Ceuta y Melilla: 3 a 7 días laborables.
+Envío express a domicilio (48 h):
+- Península: 48 h si la compra se realiza de lunes a viernes antes de las 12:00, o 72 h si se realiza después de las 12:00 del viernes, sábados, domingos o festivos. No disponible en Baleares, Canarias, Ceuta ni Melilla.
+Ten en cuenta que los plazos cuentan desde el día laborable siguiente a la realización del pedido y no se realizan entregas en sábados, domingos ni festivos. Durante periodos de rebajas y promociones, los plazos pueden ser mayores de lo habitual.";;;;;;;;
+P02;returns;puedo devolver una prenda comprada online en una tienda física?;"Sí, puedes devolver tus artículos de forma gratuita en cualquier tienda Mango del país de envío, a excepción de:
+- Tiendas en aeropuertos.
+- Tiendas Mango Outlet.
+- Tiendas en Ceuta.
+- Pedidos a las Islas Canarias: solo pueden devolverse en tiendas Mango de las Islas Canarias.
+- Pedidos a Melilla: solo pueden devolverse en tiendas de Melilla que vendan la colección del artículo.
+Tienes un plazo de 30 días desde la fecha de envío para realizar la devolución (14 días para la colección capsule). Los artículos deben estar en las mismas condiciones en las que se recibieron y con las etiquetas originales. No necesitas el formulario de devolución, puedes mostrar tu pedido desde la sección ""Mis compras"" o el e-mail de confirmación de compra.";;;;;;;;
+P03;complaints;he recibido un pedido incompleto, no tengo todas mis prendas. no sé cómo reclamarlo;"Lamento que no hayas recibido todas tus prendas.
+Por favor, revisa tu e-mail para comprobar si te hemos notificado la falta de stock o consulta el estado de tu pedido en ""Mis compras"" en nuestra web. Si confirmas que las prendas no faltan por este motivo, dímelo para que pueda facilitarte la gestión con un agente. ";;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
