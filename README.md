@@ -83,6 +83,14 @@ Recommendations include improving recovery from repeated identity-validation loo
 
 Python · pandas · Matplotlib · Excel · Git · GitHub
 
+## Use of Generative AI
+
+Generative AI tools were used as supporting tools throughout the development of this project, particularly for code generation and assistance with the preparation and refinement of the project report.
+
+The chatbot testing process, design of the evaluation criteria, assessment of the 30 responses, scoring, interpretation of results, and final conclusions were carried out by the author.
+
+AI-generated code and content were reviewed, adapted, and validated by the author. Generative AI was used as an assistant, not as a substitute for the author's evaluation or critical judgement.
+
 ## Project status
 
 Exploratory audit and first analysis completed. Further work could expand the test set, repeat prompts, and introduce a second evaluator before drawing broader conclusions.
