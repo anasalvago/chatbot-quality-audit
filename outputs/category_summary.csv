@@ -1,0 +1,9 @@
+﻿category;count;mean;min;max;category_label
+availability;3;16.333333333333332;13;20;Disponibilidad
+complaints;4;17.75;15;20;Reclamaciones
+complex_queries;5;10.2;5;18;Consultas complejas
+orders;4;7.75;5;16;Pedidos
+payments;3;17.333333333333332;15;19;Pagos
+products;3;11.666666666666666;11;13;Productos
+returns;4;13.0;11;18;Devoluciones
+shipping;4;12.0;10;14;Envíos

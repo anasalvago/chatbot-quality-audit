@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rúbrica de evaluación · Chatbot e-commerce</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--text:#1d2433;--muted:#5b6578;--line:#dfe4ee;
+--c1:#e5484d;--c2:#f08c1a;--c3:#2f7fe0;--c4:#1f9d63;
+--t1:#fdecec;--t2:#fef3e2;--t3:#e8f1fd;--t4:#e4f6ed;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151c;--card:#1a1f2a;--text:#e8ebf2;--muted:#a0a9bb;--line:#2b3242;
+--t1:#3a1d20;--t2:#3a2a14;--t3:#16293f;--t4:#14301f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.4}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 16px}
+h1{font-size:1.6rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 22px;font-size:.95rem}
+.scroll{overflow-x:auto;border-radius:14px;border:1px solid var(--line);background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:820px}
+th,td{padding:12px 14px;text-align:left;vertical-align:top;font-size:.88rem;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+thead th{color:#fff;font-size:.9rem;border-bottom:0}
+thead th small{display:block;font-weight:400;opacity:.9}
+th.crit{background:#2b3550;width:20%}
+th.l1{background:var(--c1)}th.l2{background:var(--c2)}th.l3{background:var(--c3)}th.l4{background:var(--c4)}
+td.crit{font-weight:700;background:var(--card)}
+td.crit span{display:block;font-weight:400;color:var(--muted);font-size:.78rem;margin-top:3px}
+td.l1{background:var(--t1)}td.l2{background:var(--t2)}td.l3{background:var(--t3)}td.l4{background:var(--t4)}
+h2{font-size:1.1rem;margin:26px 0 10px}
+.bands{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.band{border-radius:12px;padding:12px 14px;color:#fff}
+.band b{font-size:1.05rem;display:block}
+.band span{font-size:.85rem;opacity:.95}
+.b1{background:var(--c1)}.b2{background:var(--c2)}.b3{background:var(--c3)}.b4{background:var(--c4)}
+.note{color:var(--muted);font-size:.85rem;margin-top:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Rúbrica de evaluación · Chatbot de atención al cliente</h1>
+<p class="sub">Sector e-commerce · Idioma: español · Escala 1 (mínimo) a 4 (máximo)</p>
+
+<div class="scroll">
+<table>
+<thead><tr>
+<th class="crit">Criterio</th>
+<th class="l1">1 · Insuficiente</th>
+<th class="l2">2 · Mejorable</th>
+<th class="l3">3 · Bueno</th>
+<th class="l4">4 · Excelente</th>
+</tr></thead>
+<tbody>
+<tr><td class="crit">Exactitud y fiabilidad<span>Información correcta, sin datos inventados</span></td>
+<td class="l1">Información errónea o inventada.</td>
+<td class="l2">Errores relevantes o datos sin fundamento claro.</td>
+<td class="l3">Información correcta con imprecisiones menores.</td>
+<td class="l4">Totalmente correcta, precisa y sin invenciones.</td></tr>
+
+<tr><td class="crit">Relevancia y resolución<span>La respuesta se ajusta a la consulta y ayuda</span></td>
+<td class="l1">No responde a lo preguntado.</td>
+<td class="l2">Responde en parte; el usuario debe insistir.</td>
+<td class="l3">Resuelve la consulta con omisiones menores.</td>
+<td class="l4">Directa y completa; resuelve y orienta los siguientes pasos.</td></tr>
+
+<tr><td class="crit">Calidad lingüística<span>Gramática, ortografía, léxico y claridad</span></td>
+<td class="l1">Errores frecuentes que dificultan la comprensión.</td>
+<td class="l2">Errores notables; expresión poco clara.</td>
+<td class="l3">Errores leves y puntuales; expresión clara.</td>
+<td class="l4">Impecable, natural y bien estructurada.</td></tr>
+
+<tr><td class="crit">Tono y adecuación comunicativa<span>Cortesía, empatía y profesionalidad</span></td>
+<td class="l1">Descortés, frío o inadecuado al contexto.</td>
+<td class="l2">Correcto pero impersonal o con registro inconsistente.</td>
+<td class="l3">Cortés y profesional; empatía limitada.</td>
+<td class="l4">Cortés, empático y adaptado a la situación del usuario.</td></tr>
+
+<tr><td class="crit">Gestión de consultas complejas<span>Ambigüedad, falta de datos y derivación</span></td>
+<td class="l1">Ignora la ambigüedad, inventa o no deriva cuando debe.</td>
+<td class="l2">Asume sin preguntar o deriva de forma confusa.</td>
+<td class="l3">Aclara o deriva correctamente, con margen de mejora.</td>
+<td class="l4">Detecta la ambigüedad, pide solo lo necesario y deriva con claridad.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Puntuación global (suma de 5 criterios · máx. 20)</h2>
+<div class="bands">
+<div class="band b1"><b>5 – 9</b><span>Insuficiente</span></div>
+<div class="band b2"><b>10 – 14</b><span>Mejorable</span></div>
+<div class="band b3"><b>15 – 18</b><span>Bueno</span></div>
+<div class="band b4"><b>19 – 20</b><span>Excelente</span></div>
+</div>
+<p class="note">Todos los criterios tienen el mismo peso. Se puntúa 1–4 por criterio y por conversación evaluada.</p>
+</div>
+</body>
+</html>
